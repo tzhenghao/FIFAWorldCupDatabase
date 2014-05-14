@@ -21,7 +21,10 @@ Team table
 1. Team ID is unique and finite to be an int and is also the primary key.
 2. Number of players
 3. Manager - There can only be 1 manager at a time in a national football team.
+4. There can only be 1 home country that (might or might not) compete in the FIFA 
+World Cup.
 
 Match table
 *******************************************************************************
-
+1. There can only be 2 teams competing.
+2. There can only be 2 commentators for each match.

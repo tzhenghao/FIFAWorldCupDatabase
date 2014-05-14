@@ -21,4 +21,9 @@ CREATE TABLE Team (
 
 CREATE TABLE Match (
 	
-	
+	id INTEGER,
+	team1ID INTEGER,
+	team2ID INTEGER,
+	commentator1 TEXT,
+	commentator2 TEXT
+);
