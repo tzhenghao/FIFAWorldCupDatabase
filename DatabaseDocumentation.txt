@@ -1,6 +1,27 @@
+// Name: Zheng Hao Tan
+// Email: tanzhao@umich.edu
+// Date: May 13, 2014
+
+*******************************************************************************
+This is a documentation of the database generated in this FIFA World Cup database
+simulation. It acts as a resource that is easy to understand when reading through
+the code provided in the FIFAWorldCupDatabase.sql.
+*******************************************************************************
+
+
 Player table
 *******************************************************************************
 1. Player ID is unique and finite to be an int.
 2. Team is also unique to nationality, so we only need to know which country he
 	is representing.
 3. Age
+
+Team table
+*******************************************************************************
+1. Team ID is unique and finite to be an int and is also the primary key.
+2. Number of players
+3. Manager - There can only be 1 manager at a time in a national football team.
+
+Match table
+*******************************************************************************
+

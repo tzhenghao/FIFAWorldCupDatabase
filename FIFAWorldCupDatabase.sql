@@ -4,7 +4,21 @@
 
 CREATE TABLE Player (
 	
-	playerID INTEGER,
-	team TEXT,
+	id INTEGER PRIMARY KEY,
+	firstName TEXT,
+	lastName TEXT,
 	age INTEGER,
+	team TEXT,
+	teamNumber INTEGER
 );
+
+CREATE TABLE Team (
+
+	id INTEGER,
+	numOfPlayers INTEGER,
+	manager TEXT
+}
+
+CREATE TABLE Match (
+	
+	
