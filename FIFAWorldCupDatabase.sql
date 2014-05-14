@@ -9,7 +9,8 @@ CREATE TABLE Player (
 	lastName TEXT,
 	age INTEGER,
 	team TEXT,
-	teamNumber INTEGER
+	teamNumber INTEGER,
+	injured INTEGER
 );
 
 CREATE TABLE Team (
@@ -25,5 +26,6 @@ CREATE TABLE Match (
 	team1ID INTEGER,
 	team2ID INTEGER,
 	commentator1 TEXT,
-	commentator2 TEXT
+	commentator2 TEXT,
+	manOfTheMatch INTEGER
 );
