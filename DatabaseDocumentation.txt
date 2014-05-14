@@ -1,0 +1,6 @@
+Player table
+*******************************************************************************
+1. Player ID is unique and finite to be an int.
+2. Team is also unique to nationality, so we only need to know which country he
+	is representing.
+3. Age
