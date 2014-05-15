@@ -12,6 +12,8 @@ You must have SQLite installed on your computer.
 Usage
 -----
 
+Other Options
+-------------
 
 Support
 ------
