@@ -15,7 +15,7 @@ CREATE TABLE Player (
 
 CREATE TABLE Team (
 
-	id INTEGER,
+	id INTEGER PRIMARY KEY,
 	numOfPlayers INTEGER,
 	manager TEXT
 }
@@ -25,7 +25,17 @@ CREATE TABLE Match (
 	id INTEGER,
 	team1ID INTEGER,
 	team2ID INTEGER,
+	stadiumID INTEGER,
 	commentator1 TEXT,
 	commentator2 TEXT,
-	manOfTheMatch INTEGER
+	manOfTheMatch INTEGER,
+	homeScore INTEGER,
+	awayScore INTEGER,
+);
+
+CREATE TABLE Stadium (
+
+	id INTEGER PRIMARY KEY,
+	capacity INTEGER,
+	condition TEXT
 );
