@@ -29,6 +29,9 @@ Match table
 1. There can only be 2 teams competing.
 2. There can only be 2 commentators for each match.
 3. There can only be 1 man of the match from either teams.
+4. There can only be 1 head referee and 2 assistant referees.
+5. There can only be 1 captain from each team in the match. Captains can be
+	swapped out in the middle of the match if necessary.
 
 Stadium table
 *******************************************************************************
