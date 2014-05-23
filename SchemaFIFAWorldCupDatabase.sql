@@ -17,7 +17,8 @@ CREATE TABLE Team (
 
 	id INTEGER PRIMARY KEY,
 	numOfPlayers INTEGER,
-	manager TEXT
+	manager TEXT,
+	captain INTEGER
 }
 
 CREATE TABLE Match (
@@ -34,11 +35,14 @@ CREATE TABLE Match (
 	manOfTheMatch INTEGER,
 	homeScore INTEGER,
 	awayScore INTEGER,
+	captainHome INTEGER,
+	captainAway INTEGER
 );
 
 CREATE TABLE Stadium (
 
 	id INTEGER PRIMARY KEY,
-	capacity INTEGER,
+	capacity INTEGER NOT NULL,
 	condition TEXT
 );
+
